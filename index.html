@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lenherb</title>
+<link rel="icon" href="favicon.png">
+<style>
+  :root { --bg:#f4f1e8; --text:#1f2328; --muted:#5a616b; --accent:#c23b22; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16181d; --text:#e8e6e1; --muted:#a3a8b0; --accent:#ff7a5c; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:48px 16px; }
+  a.game { display:flex; align-items:center; gap:14px; color:inherit; text-decoration:none; padding:12px; border-radius:12px; }
+  a.game:hover { background:rgba(127,127,127,.12); }
+  a.game img { width:64px; height:64px; border-radius:14px; image-rendering:pixelated; }
+  .muted { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lenherb</h1>
+  <p class="muted">Small games, made with love (and ducks).</p>
+  <a class="game" href="doomduck/"><img src="favicon.png" alt=""><span><strong>DoomDuck</strong><br><span class="muted">Pixel-art survivor game for Android</span></span></a>
+</main>
+</body>
+</html>
